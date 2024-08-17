@@ -123,5 +123,5 @@ jobs:
           username: ${{ secrets.SFTP_USERNAME }}
           password: ${{ secrets.SFTP_PASSWORD }}
           port: ${{ secrets.SFTP_PORT }}
-          source: "tpl/u-boot-*"
+          source: "uboot-mt7621/archive/*"
           target: "~/uboot"
